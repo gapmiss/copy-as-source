@@ -1,0 +1,10 @@
+{
+	"id": "copy-as-html",
+	"name": "Copy as HTML",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Select and copy source HTML in preview mode.",
+	"author": "@gapmiss",
+	"authorUrl": "https://github.com/gapmiss",
+	"isDesktopOnly": true
+}
