@@ -1,6 +1,6 @@
 {
-	"id": "copy-as-html",
-	"name": "Copy as HTML",
+	"id": "copy-as-source-html",
+	"name": "Copy as source HTML",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Select and copy source HTML in preview mode.",

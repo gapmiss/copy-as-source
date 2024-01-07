@@ -1,5 +1,5 @@
 {
-	"name": "copy-as-html",
+	"name": "copy-as-source-html",
 	"version": "1.0.0",
 	"description": "Select and copy source HTML in preview mode.",
 	"main": "main.js",
