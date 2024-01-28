@@ -1,7 +1,7 @@
 {
-	"id": "copy-as-source-html",
-	"name": "Copy as source HTML",
-	"version": "1.0.1",
+	"id": "copy-as-source",
+	"name": "Copy as source",
+	"version": "1.0.2",
 	"minAppVersion": "0.15.0",
 	"description": "Select and copy source HTML in preview mode.",
 	"author": "@gapmiss",

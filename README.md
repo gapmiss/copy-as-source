@@ -1,4 +1,4 @@
-# copy-as-html
+# copy-as-source
 
 > [!WARNING]
 > 🚧 work-in-progress 🚧
