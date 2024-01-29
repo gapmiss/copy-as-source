@@ -1,6 +1,10 @@
 # copy-as-source
 
-> [!WARNING]
-> 🚧 work-in-progress 🚧
-> Select and copy source HTML in preview mode. The HTML is formatted using `prettier` and then copied to the clipboard.
+Obsidian.md plugin to select and copy source HTML in reading view. The source HTML code is formatted via `prettier` and copied to the clipboard.
+
+## How to use
+
+1. Install [latest release](./releases).
+2. In settings, assign a hotkey for the `Copy as source: Copy selection source` command.
+3. In reading view, select the elements you want to copy the source of and execute the assigned hotkey.
 
