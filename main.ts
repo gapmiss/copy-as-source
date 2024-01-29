@@ -55,6 +55,7 @@ export default class CopySource extends Plugin {
           container.appendChild(sel.getRangeAt(i).cloneContents());
         }
         html = container.innerHTML;
+        container.detach();
       }
     }
     return html;

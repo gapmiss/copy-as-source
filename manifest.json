@@ -3,7 +3,7 @@
 	"name": "Copy as source",
 	"version": "1.0.2",
 	"minAppVersion": "0.15.0",
-	"description": "Select and copy source HTML in preview mode.",
+	"description": "Select and copy source HTML in reading view.",
 	"author": "@gapmiss",
 	"authorUrl": "https://github.com/gapmiss",
 	"isDesktopOnly": true

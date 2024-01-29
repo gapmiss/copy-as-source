@@ -1,7 +1,7 @@
 {
-	"name": "copy-as-source-html",
-	"version": "1.0.1",
-	"description": "Select and copy source HTML in preview mode.",
+	"name": "copy-as-source",
+	"version": "1.0.2",
+	"description": "Select and copy source HTML in reading view.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
