@@ -1,7 +1,7 @@
 {
 	"id": "copy-as-source",
 	"name": "Copy as source",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "0.15.0",
 	"description": "Select and copy source HTML in reading view.",
 	"author": "@gapmiss",
