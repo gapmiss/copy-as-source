@@ -18,7 +18,7 @@ export default class CopySource extends Plugin {
             if (!checking) {
               let selectedSource: string = this.getSelectionHtml();
               if (selectedSource !== "") {
-                this.prettifyCopy(selectedSource, file);
+                void this.prettifyCopy(selectedSource, file);
               } else {
                 new Notice("No selection found");
                 return;
@@ -30,14 +30,12 @@ export default class CopySource extends Plugin {
       }
     });
 
-    console.log("copy-as-source loaded");
   }
 
   onunload() {
-    console.log("copy-as-source unloaded");
   }
 
-  async copyStringToClipboard(text:string, topic:string|undefined=undefined) {
+  async copyStringToClipboard(text:string, _topic:string|undefined=undefined) {
     navigator.clipboard
       .writeText(text)
       .catch(function (error) {
@@ -50,7 +48,7 @@ export default class CopySource extends Plugin {
     if (typeof activeDocument.getSelection !== "undefined") {
       let sel: Selection|null = activeDocument.getSelection();
       if (sel?.rangeCount) {
-        let container: HTMLDivElement = activeDocument.createElement("div");
+        let container: HTMLDivElement = activeDocument.createDiv();
         for (let i: number = 0, len = sel.rangeCount; i < len; ++i) {
           container.appendChild(sel.getRangeAt(i).cloneContents());
         }
@@ -81,7 +79,7 @@ export default class CopySource extends Plugin {
         let regex:RegExp = /^\s*$(?:\r\n?|\n)/gm;
         // remove empty lines
         let result:string = pretty.replace(regex, "");
-        this.copyStringToClipboard(result);
+        void this.copyStringToClipboard(result);
         new Notice("Source copied to clipboard", 3000);
       }
     );
