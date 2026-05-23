@@ -1,6 +1,6 @@
 {
 	"name": "copy-as-source",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Select and copy source HTML in reading view.",
 	"main": "main.js",
 	"scripts": {
