@@ -48,7 +48,7 @@ export default class CopySource extends Plugin {
     if (typeof activeDocument.getSelection !== "undefined") {
       let sel: Selection|null = activeDocument.getSelection();
       if (sel?.rangeCount) {
-        let container: HTMLDivElement = activeDocument.createDiv();
+        let container: HTMLDivElement = activeDocument.createElement('div');
         for (let i: number = 0, len = sel.rangeCount; i < len; ++i) {
           container.appendChild(sel.getRangeAt(i).cloneContents());
         }
